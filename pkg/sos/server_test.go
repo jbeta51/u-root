@@ -23,7 +23,7 @@ func TestSOSHtmlPath(t *testing.T) {
 	}{
 		{paths: []string{""}, result: ""},
 		{paths: []string{"css"}, result: "css"},
-		{paths: []string{"html", "wifi.html"}, result: "html/wifi.html"},
+		{paths: []string{"html", "wifi.html"}, result: "html/.html"},
 		{paths: []string{"html/wifi.html"}, result: "html/wifi.html"},
 	}
 
